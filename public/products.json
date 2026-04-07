@@ -125,5 +125,23 @@
       "Lifetime updates"
     ],
     "icon": "Star"
+  },
+
+  {
+    "id": 9,
+    "name": "Ultimate Life Bundle",
+    "description": "Everything you need to land your dream job in one bundle.",
+    "price": 99.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "All templates access",
+      "Resume + portfolio",
+      "Interview coaching",
+      "Lifetime updates"
+    ],
+    "icon": "Star"
   }
+
 ]

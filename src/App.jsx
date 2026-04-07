@@ -4,6 +4,7 @@ import Hero from "./components/navbar/homepage/Hero";
 import Products from "./components/navbar/homepage/products/Products";
 import Navbar from "./components/navbar/Navbar";
 import { ToastContainer } from "react-toastify";
+import Footer from "./components/navbar/homepage/footer/Footer";
 
 
 
@@ -21,7 +22,14 @@ function App() {
         
           <Products selectedProduct = {selectedProduct} setSelectedProduct = {setSelectedProduct}></Products>
         
+        
       </main>
+
+      
+        
+      <footer>
+        <Footer></Footer>
+      </footer>
 
 
       {/* ToastContainer */}
