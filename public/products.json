@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Pack",
+    "description": "Basic resume builder with essential templates for beginners.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization and modern designs.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Cover letter builder",
+      "Export to PDF & DOCX"
+    ],
+    "icon": "Award"
+  },
+  {
+    "id": 3,
+    "name": "Career Growth Kit",
+    "description": "Complete toolkit for job seekers with resume and interview prep.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Resume builder",
+      "Interview questions",
+      "LinkedIn optimization",
+      "Priority support"
+    ],
+    "icon": "TrendingUp"
+  },
+  {
+    "id": 4,
+    "name": "Freelancer Portfolio Pack",
+    "description": "Create stunning portfolios to showcase your freelance work.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Portfolio templates",
+      "Custom domain support",
+      "Image gallery",
+      "SEO optimization"
+    ],
+    "icon": "Globe"
+  },
+  {
+    "id": 5,
+    "name": "Job Hunter Premium",
+    "description": "All-in-one premium solution for serious job seekers.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Unlimited resumes",
+      "ATS checker",
+      "Cover letters",
+      "Job tracking dashboard"
+    ],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 6,
+    "name": "Student Resume Plan",
+    "description": "Affordable plan designed for students and fresh graduates.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Student templates",
+      "Easy editor",
+      "Download as PDF",
+      "Basic tips"
+    ],
+    "icon": "BookOpen"
+  },
+  {
+    "id": 7,
+    "name": "Executive CV Suite",
+    "description": "Premium CV builder for senior professionals and executives.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Executive templates",
+      "Personal branding tools",
+      "LinkedIn sync",
+      "Priority support"
+    ],
+    "icon": "UserCheck"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Bundle",
+    "description": "Everything you need to land your dream job in one bundle.",
+    "price": 99.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "All templates access",
+      "Resume + portfolio",
+      "Interview coaching",
+      "Lifetime updates"
+    ],
+    "icon": "Star"
+  }
+]
