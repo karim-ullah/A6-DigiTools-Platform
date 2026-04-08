@@ -1,7 +1,12 @@
 import { Pen } from 'lucide-react';
 import React from 'react';
 
-const CartCard = ({product}) => {
+const CartCard = ({product, selectedProduct, setSelectedProduct}) => {
+
+    const handleRemove = (product) =>{
+        const updated = selectedProduct.filter(item => item.id !== product.id) 
+        setSelectedProduct(updated)                                                           
+    }
     return (
         <div className='bg-[#F9FAFC] p-5 rounded-2xl flex justify-between items-center'>
             <div className='flex gap-3 items-center'>
@@ -12,7 +17,7 @@ const CartCard = ({product}) => {
                 </div>
             </div>
             <div>
-                <button>Remove</button>
+                <button onClick={() => handleRemove(product)}>Remove</button>
             </div>
         </div>
     );

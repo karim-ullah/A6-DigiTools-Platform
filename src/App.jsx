@@ -5,6 +5,9 @@ import Products from "./components/navbar/homepage/products/Products";
 import Navbar from "./components/navbar/Navbar";
 import { ToastContainer } from "react-toastify";
 import Footer from "./components/navbar/homepage/footer/Footer";
+import GetStarted from "./components/navbar/homepage/getstartedsection/GetStarted";
+import Stats from "./components/navbar/homepage/stats/Stats";
+import PricingCard from "./components/navbar/homepage/pricingCard/PricingCard";
 
 
 
@@ -18,10 +21,23 @@ function App() {
       </header>
 
       <main>
+
         <Hero></Hero>
+
+        <section className="bg-[#9514FA] py-15">
+          <Stats></Stats>
+        </section>
         
-          <Products selectedProduct = {selectedProduct} setSelectedProduct = {setSelectedProduct}></Products>
+        <Products selectedProduct = {selectedProduct} setSelectedProduct = {setSelectedProduct}></Products>
         
+        
+        <section className="bg-[#F9FAFC]">
+        <GetStarted></GetStarted>
+        </section>
+
+        <section className="w-11/12 mx-auto py-15">
+          <PricingCard></PricingCard>
+        </section>
         
       </main>
 

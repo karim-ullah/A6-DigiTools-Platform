@@ -23,7 +23,7 @@ const CartedProduct = ({selectedProduct, setSelectedProduct}) => {
         <div className='w-full lg:w-[70%] mx-auto border-1 rounded-sm p-10 space-y-3'>
             <h1 className='font-bold text-2xl'>Your Cart</h1>
             {
-                selectedProduct.length === 0 ? <NoCartCard></NoCartCard> : selectedProduct.map(product => <CartCard key={product.id} product = {product} ></CartCard>)
+                selectedProduct.length === 0 ? <NoCartCard></NoCartCard> : selectedProduct.map(product => <CartCard key={product.id} product = {product} selectedProduct = {selectedProduct} setSelectedProduct = {setSelectedProduct}></CartCard>)
             }
 
             <div className='flex justify-between items-center'>

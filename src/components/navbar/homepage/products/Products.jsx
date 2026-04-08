@@ -17,7 +17,7 @@ const Products = ({ selectedProduct, setSelectedProduct}) => {
   return (
     <div className="min-h-screen w-11/12 mx-auto space-y-3 py-10">
       <div className="text-center space-y-3">
-        <h1 className="text-5xl font-extrabold text-[#001931]">Premium Digital Tools</h1>
+        <h1 className="text-4xl lg:text-5xl font-extrabold text-[#001931]">Premium Digital Tools</h1>
         <p className="text-sm">
           Choose from our curated collection of premium digital products
           designed <br /> to boost your productivity and creativity.
