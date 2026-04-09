@@ -1,4 +1,4 @@
-import { Check, Pen } from "lucide-react";
+import { Check} from "lucide-react";
 import { toast } from "react-toastify";
 
 const ProductCard = ({ productData, selectedProduct, setSelectedProduct }) => {
@@ -22,10 +22,10 @@ const ProductCard = ({ productData, selectedProduct, setSelectedProduct }) => {
     <div className="card bg-base-100 shadow-sm hover:-translate-y-2">
       <div className="card-body">
         <div className="flex justify-between">
-            <div className="p-5 rounded-full border-1 border-[#f2f2f2]">
-                <Pen ></Pen>
+            <div className="p-5 rounded-full border-1 border-[#f2f2f2] w-18 h-18">
+               <img src={productData.icon} alt="" />
             </div>
-            <span className={`badge px-3 py-3 rounded-full text-[#BB4D00] font-medium capitalize ${productData.tag === 'best seller' ? 'bg-[#FEF3C6]' : productData.tag === 'popular' ? 'bg-[#E1E7FF]' : 'bg-[#DBFCE7]'}`}>{productData.tag}</span>
+            <span className={`badge px-3 py-3 rounded-full text-[#BB4D00] font-medium capitalize ${productData.tag === 'best seller' ? 'bg-[#FEF3C6]' : productData.tag === 'popular' ? 'bg-[#E1E7FF] text-blue-600' : 'bg-[#DBFCE7]'}`}>{productData.tag}</span>
         </div>
         <div>
           <h2 className="text-2xl text-[#101727] font-bold">{productData.name}</h2>

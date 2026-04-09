@@ -12,7 +12,7 @@
       "Basic customization",
       "Export to PDF"
     ],
-    "icon": "FileText"
+    "icon": "https://i.ibb.co.com/XrMGwK3Q/design-tool.png"
   },
   {
     "id": 2,
@@ -28,7 +28,7 @@
       "Cover letter builder",
       "Export to PDF & DOCX"
     ],
-    "icon": "Award"
+    "icon": "https://i.ibb.co.com/B2Vbp6GD/writing-2327400-1.png"
   },
   {
     "id": 3,
@@ -44,7 +44,7 @@
       "LinkedIn optimization",
       "Priority support"
     ],
-    "icon": "TrendingUp"
+    "icon": "https://i.ibb.co.com/wb8kYRg/portfolio.png"
   },
   {
     "id": 4,
@@ -60,7 +60,7 @@
       "Image gallery",
       "SEO optimization"
     ],
-    "icon": "Globe"
+    "icon": "https://i.ibb.co.com/zHPL8pc4/social-media.png"
   },
   {
     "id": 5,
@@ -76,7 +76,7 @@
       "Cover letters",
       "Job tracking dashboard"
     ],
-    "icon": "Briefcase"
+    "icon": "https://i.ibb.co.com/ch6FKLyB/operation.png"
   },
   {
     "id": 6,
@@ -92,7 +92,7 @@
       "Download as PDF",
       "Basic tips"
     ],
-    "icon": "BookOpen"
+    "icon": "https://i.ibb.co.com/FLF5dSbr/user.png"
   },
   {
     "id": 7,
@@ -108,7 +108,7 @@
       "LinkedIn sync",
       "Priority support"
     ],
-    "icon": "UserCheck"
+    "icon": "https://i.ibb.co.com/WNxVCDXS/package.png"
   },
   {
     "id": 8,
@@ -124,7 +124,7 @@
       "Interview coaching",
       "Lifetime updates"
     ],
-    "icon": "Star"
+    "icon": "https://i.ibb.co.com/B2Vbp6GD/writing-2327400-1.png"
   },
 
   {
@@ -141,7 +141,7 @@
       "Interview coaching",
       "Lifetime updates"
     ],
-    "icon": "Star"
+    "icon": "https://i.ibb.co.com/B50gRtD0/rocket.png"
   }
 
 ]

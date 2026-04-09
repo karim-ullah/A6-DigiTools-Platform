@@ -14,7 +14,7 @@ const PricingCard = () => {
       </div>
 
       {/* Card */}
-      <div className="grid grid-cols-1 justify-around justify-items-center gap-5 lg:grid-cols-3 pt-15">
+      <div className="grid grid-cols-1 justify-around justify-items-center gap-8 lg:grid-cols-3 pt-15">
           {/* card one */}
   
           <div className=" w-full lg:w-96 bg-[#F9FAFC] shadow-sm p-10 rounded-xl">
@@ -59,11 +59,11 @@ const PricingCard = () => {
           {/* card middle */}
   
           <div className="w-full lg:w-96 bg-[#9514FA] text-white shadow-sm p-10 rounded-xl relative">
-            <div className="absolute -top-3 left-[40%]">
+            <div className="absolute -top-3 left-[35%]">
                 <p className="badge badge-warning">Most Popular</p>
             </div>
             <div className="flex flex-col h-full">
-              {/* <span className="badge badge-xs badge-warning">Most Popular</span> */}
+              
               <div className="space-y-2">
                 <h2 className="text-2xl font-bold">Starter</h2>
                 <p>Best for professionals</p>

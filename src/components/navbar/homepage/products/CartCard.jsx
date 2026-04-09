@@ -1,4 +1,3 @@
-import { Pen } from 'lucide-react';
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 
@@ -17,7 +16,7 @@ const CartCard = ({product, selectedProduct, setSelectedProduct, setItems}) => {
     return (
         <div className='bg-[#F9FAFC] p-5 rounded-2xl flex justify-between items-center'>
             <div className='flex gap-3 items-center'>
-                <Pen></Pen>
+                <img className='w-10' src={product.icon} alt="" />
                 <div>
                     <h3 className='font-medium text-xl'>{product.name}</h3>
                     <p>$ {product.price}</p>

@@ -17,8 +17,8 @@ const GetStarted = () => {
         {/* card one */}
 
         <div className="border-1 border-[#fafafa] rounded-2xl p-6 text-center space-y-3 shadow-sm relative">
-            <div className="badge badge-primary w-6 h-6 rounded-full absolute top-5 right-5">
-                <p className="">01</p>
+            <div className="badge badge-primary p-3 w-6 h-6 rounded-full absolute top-5 right-5">
+                <p className="font-medium">01</p>
             </div>
             <div className="bg-[#fae9fe] p-5 w-fit rounded-full mx-auto mt-10">
                 <img src="/src/assets/user.png" alt="" />
@@ -29,8 +29,8 @@ const GetStarted = () => {
 
         {/* card two */}
         <div className="border-1 border-[#fafafa] rounded-2xl p-6 text-center space-y-3 shadow-sm relative">
-            <div className="badge badge-primary w-6 h-6 rounded-full absolute top-5 right-5">
-                <p className="">02</p>
+            <div className="badge badge-primary p-3 w-6 h-6 rounded-full absolute top-5 right-5">
+                <p className="font-medium">02</p>
             </div>
             <div className="bg-[#fae9fe] p-5 w-fit rounded-full mx-auto mt-10">
                 <img src="/src/assets/package.png" alt="" />
@@ -41,8 +41,8 @@ const GetStarted = () => {
 
         {/* card three */}
         <div className="border-1 border-[#fafafa] rounded-2xl p-6 text-center space-y-3 shadow-sm relative">
-            <div className="badge badge-primary w-6 h-6 rounded-full absolute top-5 right-5">
-                <p className="">03</p>
+            <div className="badge badge-primary p-3 w-6 h-6 rounded-full absolute top-5 right-5">
+                <p className="font-medium">03</p>
             </div>
             <div className="bg-[#fae9fe] p-5 w-fit rounded-full mx-auto mt-10">
                 <img src="/src/assets/rocket.png" alt="" />

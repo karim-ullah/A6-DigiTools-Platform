@@ -31,7 +31,7 @@ function App() {
           <Stats></Stats>
         </section>
         
-        <section>
+        <section className="">
           <Products selectedProduct = {selectedProduct} setSelectedProduct = {setSelectedProduct}></Products>
         </section>
         
