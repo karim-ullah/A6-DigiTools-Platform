@@ -15,7 +15,7 @@ const Products = ({ selectedProduct, setSelectedProduct}) => {
     
     const [selected, setSelected] = useState('products')
   return (
-    <div className="min-h-screen w-11/12 mx-auto space-y-3 py-10">
+    <div className="min-h-screen w-11/12 mx-auto space-y-3 py-30">
       <div className="text-center space-y-3">
         <h1 className="text-4xl lg:text-5xl font-extrabold text-[#001931]">Premium Digital Tools</h1>
         <p className="text-sm">

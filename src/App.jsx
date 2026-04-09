@@ -8,6 +8,7 @@ import Footer from "./components/navbar/homepage/footer/Footer";
 import GetStarted from "./components/navbar/homepage/getstartedsection/GetStarted";
 import Stats from "./components/navbar/homepage/stats/Stats";
 import PricingCard from "./components/navbar/homepage/pricingCard/PricingCard";
+import CallToAction from "./components/navbar/homepage/footer/call to action/CallToAction";
 
 
 
@@ -26,7 +27,7 @@ function App() {
           <Hero></Hero>
         </section>
 
-        <section className="bg-[#9514FA] py-15">
+        <section className="bg-[#9514FA] py-30">
           <Stats></Stats>
         </section>
         
@@ -39,8 +40,12 @@ function App() {
         <GetStarted></GetStarted>
         </section>
 
-        <section className="w-11/12 mx-auto py-15">
+        <section className="w-11/12 mx-auto py-30">
           <PricingCard></PricingCard>
+        </section>
+
+        <section className="bg-[#9514FA] py-30">
+          <CallToAction></CallToAction>
         </section>
         
       </main>

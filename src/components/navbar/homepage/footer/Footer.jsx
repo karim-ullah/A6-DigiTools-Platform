@@ -75,7 +75,7 @@ const Footer = () => {
 
       <div className="w-11/12 mx-auto py-5">
         <div className="divider divider-accent "></div>
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
         <div>
           <p className="text-[#fafafaac]">© 2026 Digitools. All rights reserved.</p>
         </div>
