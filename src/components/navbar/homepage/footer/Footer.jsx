@@ -77,9 +77,9 @@ const Footer = () => {
         <div className="divider divider-accent "></div>
       <div className="flex justify-between items-center">
         <div>
-          <p className="text-[#FAFAFA]">© 2026 Digitools. All rights reserved.</p>
+          <p className="text-[#fafafaac]">© 2026 Digitools. All rights reserved.</p>
         </div>
-        <div className="text-[#FAFAFA] space-x-3">
+        <div className="text-[#fafafaac] space-x-3">
           <a className="link link-hover">Documentation</a>
           <a className="link link-hover">Help Center</a>
           <a className="link link-hover">Community</a>

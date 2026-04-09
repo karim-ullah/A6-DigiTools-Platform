@@ -19,7 +19,7 @@ const ProductCard = ({ productData, selectedProduct, setSelectedProduct }) => {
         
     }
   return (
-    <div className="card bg-base-100 shadow-sm ">
+    <div className="card bg-base-100 shadow-sm hover:-translate-y-2">
       <div className="card-body">
         <div className="flex justify-between">
             <div className="p-5 rounded-full border-1 border-[#f2f2f2]">

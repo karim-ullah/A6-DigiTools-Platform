@@ -29,23 +29,11 @@ const Navbar = ({ selectedProduct }) => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            <li className="hover:border-b-1 cursor-pointer pt-3 font-medium">Products</li>
+            <li className="hover:border-b-1 cursor-pointer pt-3 font-medium">Features</li>
+            <li className="hover:border-b-1 cursor-pointer pt-3 font-medium">Pricing</li>
+            <li className="hover:border-b-1 cursor-pointer pt-3 font-medium">Testimonails</li>
+            <li className="hover:border-b-1 cursor-pointer pt-3 font-medium">FAQ</li>
           </ul>
         </div>
         <a className="font-bold text-xl text-[#4F39F6]">DigiTools</a>

@@ -1,11 +1,18 @@
 import { Pen } from 'lucide-react';
-import React from 'react';
+import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
-const CartCard = ({product, selectedProduct, setSelectedProduct}) => {
+const CartCard = ({product, selectedProduct, setSelectedProduct, setItems}) => {
+
+    
 
     const handleRemove = (product) =>{
         const updated = selectedProduct.filter(item => item.id !== product.id) 
-        setSelectedProduct(updated)                                                           
+        setSelectedProduct(updated)
+        setItems(updated)
+        toast.success('Product removed')
+        
+                                                                 
     }
     return (
         <div className='bg-[#F9FAFC] p-5 rounded-2xl flex justify-between items-center'>
@@ -17,7 +24,7 @@ const CartCard = ({product, selectedProduct, setSelectedProduct}) => {
                 </div>
             </div>
             <div>
-                <button onClick={() => handleRemove(product)}>Remove</button>
+                <button onClick={() => handleRemove(product)} className='btn'>Remove</button>
             </div>
         </div>
     );

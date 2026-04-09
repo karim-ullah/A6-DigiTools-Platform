@@ -22,13 +22,17 @@ function App() {
 
       <main>
 
-        <Hero></Hero>
+        <section>
+          <Hero></Hero>
+        </section>
 
         <section className="bg-[#9514FA] py-15">
           <Stats></Stats>
         </section>
         
-        <Products selectedProduct = {selectedProduct} setSelectedProduct = {setSelectedProduct}></Products>
+        <section>
+          <Products selectedProduct = {selectedProduct} setSelectedProduct = {setSelectedProduct}></Products>
+        </section>
         
         
         <section className="bg-[#F9FAFC]">
