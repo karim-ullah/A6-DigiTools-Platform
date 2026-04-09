@@ -1,16 +1,11 @@
-# React + Vite
+DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a digital products ecommerce website where customer can buy their essentials digital tools to improve productivity.
 
-Currently, two official plugins are available:
+I have used some technology such as React, tailwind CSS, JavaScript (ES+6), Toastify npm package, Daisy UI etc to develop this plafform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Three features of my projects-
+1. Click on buy now button- Text will be changed to added to card, increase cart number both in cart tab and navbar cart icon
+2. Clients can switch between product and cart tab, remove one by one item from cart
+3. Fully responsive
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
